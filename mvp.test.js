@@ -115,7 +115,7 @@ describe('Sprint 5 Module', () => {
         jest.spyOn(global.Math, 'random').mockRestore()
       })
       test('👉 [9] The person is correctly rendered', () => {
-        screen.getAllByText('William Brown was born in 1997 and is friends with Jessica Taylor, Maria Rodriguez and Kimberly Ng.')
+        screen.getAllByText('William Brown was born in 1997 and is friends with Jessica Taylor, Maria Rodriguez, and Kimberly Ng.')
       })
     })
     describe('Luis Gonzalez was born in 1990 and has no friends.', () => {
